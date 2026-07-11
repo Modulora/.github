@@ -26,7 +26,7 @@ Every Modulora repository consumes these defaults. Security-sensitive repository
 ### Deliverables
 
 - Publish the organization profile with the Modulora social header.
-- Store canonical `social-header.png`, `profile-picture.png`, and `icon.svg` under `assets/brand/`.
+- Store canonical `social-header.png`, `profile-picture.png`, and `logo.svg` under `assets/brand/`.
 - Document dimensions, intended use, and all-rights-reserved mark policy.
 - Link public core, spec, and CLI repositories.
 - Add website/docs links when domains are live.
