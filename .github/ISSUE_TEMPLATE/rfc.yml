@@ -1,0 +1,35 @@
+name: RFC proposal
+description: Propose a cross-repository, breaking, trust, or architecture decision
+title: "rfc: "
+labels: ["rfc"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and problem
+    validations:
+      required: true
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals and non-goals
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Security, privacy, compatibility, rollout, and rollback
+    validations:
+      required: true
