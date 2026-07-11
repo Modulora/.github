@@ -5,7 +5,7 @@
 - [ ] Require two-factor authentication for every member.
 - [ ] Add a second trusted owner with hardware-backed MFA before production.
 - [ ] Document owner recovery and emergency access.
-- [ ] Create least-privilege teams: maintainers, core, spec, cli, security, cloud, infra.
+- [x] Create least-privilege teams: maintainers, core, spec, cli, security, cloud, infra, moderation.
 - [ ] Enable organization audit logging and security notifications.
 
 ## Community health
@@ -19,13 +19,14 @@
 
 ## Repository policy
 
-- [ ] Apply default-branch rulesets to every repository.
+- [x] Require web-created commits to include DCO sign-off.
+- [x] Protect default branches on public repositories. Private branch protection requires a paid GitHub organization plan and remains a launch blocker.
 - [ ] Require pull requests, CODEOWNERS, status checks, and stale-approval dismissal.
-- [ ] Block force pushes and branch deletion.
-- [ ] Set Actions token permissions to read-only by default.
+- [x] Block force pushes and branch deletion on protected public branches.
+- [x] Set Actions token permissions to read-only by default.
 - [ ] Pin third-party Actions to commit SHAs.
 - [ ] Protect package-publish and production environments.
-- [ ] Enable private vulnerability reporting for public repositories.
+- [x] Enable private vulnerability reporting for public repositories.
 
 ## Identity and packages
 

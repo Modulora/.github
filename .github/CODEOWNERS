@@ -1,0 +1,8 @@
+* @Modulora/maintainers
+
+/.github/ @Modulora/maintainers @Modulora/security
+/SECURITY.md @Modulora/security
+/CONTRIBUTING.md @Modulora/maintainers
+/CODE_OF_CONDUCT.md @Modulora/maintainers
+/GOVERNANCE.md @Modulora/maintainers
+/assets/brand/ @Modulora/maintainers

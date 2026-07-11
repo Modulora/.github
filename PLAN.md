@@ -88,6 +88,7 @@ Every Modulora repository consumes these defaults. Security-sensitive repository
 - Fork PR workflows receive no secrets.
 - Third-party Actions are pinned to immutable commit SHAs.
 - Repository exceptions are documented and time-bounded.
+- Private repositories require a paid GitHub organization plan for branch protection; this must be resolved before production cloud/infra work.
 
 ## Milestone 4 — Package and integration ownership
 
