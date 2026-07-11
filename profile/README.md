@@ -1,3 +1,5 @@
+<p align="center"><img src="../assets/brand/social-header.png" alt="Modulora — Discover your next great component" width="100%"></p>
+
 # Modulora
 
 **Discover your next great component.**
